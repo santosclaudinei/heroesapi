@@ -16,7 +16,7 @@ public class DynamoConfig {
     @Value("${amazon.dynamodb.endpoint}")
     private String amazonDynamoDBEndpoint;
 
-    @Value("${aws_access_key_id}")
+    @Value("${aws_access_id}")
     private String amazonAWSAccessKey;
 
     @Value("${aws_secret_access_key}")
