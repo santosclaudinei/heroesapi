@@ -14,7 +14,7 @@ import reactor.core.publisher.Mono;
 import static com.digitalinnovation.heroesapi.constants.HeroesConstant.HEROES_ENDPOINT_LOCAL;
 
 @RestController
-/* @Slf4j apresentou problemas */
+@Slf4j
 
 public class HeroesController {
     HeroesService heroesService;
